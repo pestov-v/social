@@ -1,0 +1,24 @@
+.avatarWrap {
+    position: relative;
+    margin-left: 40px;
+}
+
+.avatar {
+    position: relative;
+}
+
+.avatarAddButtonWrap {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0.001;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.avatarWrap:hover .avatarAddButtonWrap {
+    opacity: 1;
+}
+
+.avatarAddButtonWrap {
+    display: flex;
+}

@@ -1,0 +1,13 @@
+.postWrapper {
+
+}
+
+.iconsWrapper {
+    display: none;
+    position: relative;
+    top: -3px;
+}
+
+.postWrapper:hover .iconsWrapper {
+    display: inline-flex;
+}
